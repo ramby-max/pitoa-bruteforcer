@@ -23,7 +23,7 @@ print(banner)
 
 passlist = open("/usr/share/wordlists/rockyou.txt", "r") # ROCKYOU PASSLIST. CHANGE IF NOT IN DEFAULT DIR
 
-setUrl = input("Input the URL you want to bruteforce(ex: 127.0.0.1/login): ") 
+setUrl = input("Input the URL you want to bruteforce(ex: http://127.0.0.1/login): ") 
 setUsername = input("Input the username you want to bruteforce: ")
 setDelay = input("Input the delay between requests (in seconds): ")
 
